@@ -44,8 +44,9 @@ struct NewCardView: View {
     }
 
     func addCard() {
-//        cards.insert(card, at: 0)
-//        saveData()
+        let card = Card(name: newName, mantra: newMantra)
+        cards.insert(card, at: 0)
+        saveData()
     }
 
     func removeCards(at offsets: IndexSet) {

@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showingEditScreen = false
     let card: Card
     var body: some View {
-        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                CardDetailView(card: Card.example)
-            }
+        NavigationView {
+            List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                    CardDetailView(card: Card.example)
+            }.navigationBarTitle("Cards")
+            .navigationBarItems(trailing:
+                Button(action: {
+                self.showingEditScreen = true
+            }) {
+                Image(systemName: "plus.circle")
+        })
+        }
+
     }
 }
 
