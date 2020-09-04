@@ -10,9 +10,11 @@ import SwiftUI
 struct CardDetailView: View {
    let card: Card
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Text(card.name)
+                .font(.headline)
             Text(card.mantra)
+                .font(.body)
         }
     }
 }

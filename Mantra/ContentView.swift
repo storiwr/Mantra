@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    let card: Card
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+                CardDetailView(card: Card.example)
+            }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(card: Card.example)
     }
 }
