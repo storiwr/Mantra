@@ -11,6 +11,8 @@
 		DCE00BC42502C6A8005982EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE00BC32502C6A8005982EA /* ContentView.swift */; };
 		DCE00BC62502C6A9005982EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE00BC52502C6A9005982EA /* Assets.xcassets */; };
 		DCE00BC92502C6A9005982EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE00BC82502C6A9005982EA /* Preview Assets.xcassets */; };
+		DCE00BD12502C729005982EA /* CardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE00BD02502C729005982EA /* CardDataModel.swift */; };
+		DCE00BD32502C953005982EA /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE00BD22502C953005982EA /* CardDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		DCE00BC52502C6A9005982EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCE00BC82502C6A9005982EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCE00BCA2502C6A9005982EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCE00BD02502C729005982EA /* CardDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDataModel.swift; sourceTree = "<group>"; };
+		DCE00BD22502C953005982EA /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				DCE00BC12502C6A8005982EA /* MantraApp.swift */,
 				DCE00BC32502C6A8005982EA /* ContentView.swift */,
+				DCE00BD22502C953005982EA /* CardDetailView.swift */,
+				DCE00BD02502C729005982EA /* CardDataModel.swift */,
 				DCE00BC52502C6A9005982EA /* Assets.xcassets */,
 				DCE00BCA2502C6A9005982EA /* Info.plist */,
 				DCE00BC72502C6A9005982EA /* Preview Content */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE00BC42502C6A8005982EA /* ContentView.swift in Sources */,
+				DCE00BD12502C729005982EA /* CardDataModel.swift in Sources */,
 				DCE00BC22502C6A8005982EA /* MantraApp.swift in Sources */,
+				DCE00BD32502C953005982EA /* CardDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
