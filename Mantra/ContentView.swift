@@ -22,8 +22,11 @@ struct ContentView: View {
                 Image(systemName: "plus.circle")
         })
         }
-
+        .sheet(isPresented: $showingEditScreen) {
+                    NewCardView()
+                }
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
